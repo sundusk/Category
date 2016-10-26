@@ -14,6 +14,7 @@
 		C2AA8F621DC08C790085A6F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2AA8F611DC08C790085A6F0 /* Assets.xcassets */; };
 		C2AA8F651DC08C790085A6F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2AA8F631DC08C790085A6F0 /* LaunchScreen.storyboard */; };
 		C2AA8F6F1DC08CC60085A6F0 /* UIColor+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = C2AA8F6E1DC08CC60085A6F0 /* UIColor+Extension.m */; };
+		C2AA8F761DC0F4E40085A6F0 /* NSObject+CCQRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = C2AA8F751DC0F4E40085A6F0 /* NSObject+CCQRuntime.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		C2AA8F661DC08C790085A6F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C2AA8F6D1DC08CC60085A6F0 /* UIColor+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Extension.h"; sourceTree = "<group>"; };
 		C2AA8F6E1DC08CC60085A6F0 /* UIColor+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Extension.m"; sourceTree = "<group>"; };
+		C2AA8F741DC0F4E40085A6F0 /* NSObject+CCQRuntime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+CCQRuntime.h"; sourceTree = "<group>"; };
+		C2AA8F751DC0F4E40085A6F0 /* NSObject+CCQRuntime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+CCQRuntime.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +64,7 @@
 		C2AA8F541DC08C790085A6F0 /* CCQCategory */ = {
 			isa = PBXGroup;
 			children = (
+				C2AA8F701DC0E4660085A6F0 /* Runtime */,
 				C2AA8F6C1DC08CC60085A6F0 /* Color */,
 				C2AA8F581DC08C790085A6F0 /* AppDelegate.h */,
 				C2AA8F591DC08C790085A6F0 /* AppDelegate.m */,
@@ -90,6 +94,15 @@
 				C2AA8F6E1DC08CC60085A6F0 /* UIColor+Extension.m */,
 			);
 			path = Color;
+			sourceTree = "<group>";
+		};
+		C2AA8F701DC0E4660085A6F0 /* Runtime */ = {
+			isa = PBXGroup;
+			children = (
+				C2AA8F741DC0F4E40085A6F0 /* NSObject+CCQRuntime.h */,
+				C2AA8F751DC0F4E40085A6F0 /* NSObject+CCQRuntime.m */,
+			);
+			path = Runtime;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,6 +178,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C2AA8F5D1DC08C790085A6F0 /* ViewController.m in Sources */,
+				C2AA8F761DC0F4E40085A6F0 /* NSObject+CCQRuntime.m in Sources */,
 				C2AA8F5A1DC08C790085A6F0 /* AppDelegate.m in Sources */,
 				C2AA8F571DC08C790085A6F0 /* main.m in Sources */,
 				C2AA8F6F1DC08CC60085A6F0 /* UIColor+Extension.m in Sources */,
